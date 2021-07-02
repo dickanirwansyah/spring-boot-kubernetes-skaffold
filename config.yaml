@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configmap-server-kubernetes
+data:
+  application.properties: |-
+    welcome.message=Hello from kubernetes app.properties
+    message=Hi dicka from kubernetes app.properties
